@@ -117,12 +117,11 @@ footer{
     padding-top: 5px;
     margin-left: 20px;
 }
-.wraper{
+.blocks{
 	display: flex;
-}
-.block{
-	display: flex;
+	justify-content: space-between;
 }
 .text-block{
 	text-align: start;
+	margin-top: 20px;
 }
