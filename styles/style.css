@@ -26,6 +26,9 @@ header{
 }
 .fas{
 	color: #888888;
+}
+.fa-bars{
+	
 	font-size: 30px;
 	display: none;
 }
@@ -35,6 +38,8 @@ a{
 .flex{
 	display: flex;
 	justify-content: space-between;
+	max-width: 1170px;
+	width: 100%;
 }
 .img-flex{
 	max-width: 585px;
@@ -170,7 +175,6 @@ h4{
     margin-bottom: 30px;
 }
 .form-wrap{
-	width: 100%;
     max-width: 630px;
     width: 100%;
 }

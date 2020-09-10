@@ -3,71 +3,109 @@
 		padding: 0 15px;
 	}
 	.flex-block{
-         max-width: 1170px;
-         width: 100%;
-	}
+   max-width: 1170px;
+   width: 100%;
+  }
+  .home-img{
+    width: 100%;
+  }
+}
+@media only screen and (max-width:1177px){
+  .img-wrap{
+   max-width: 500px;
+   width: 100%;
+  }
+}
+@media only screen and (max-width:1153px){
+  .img-wrap{
+   max-width: 400px;
+   width: 100%;
+  }
+}
+@media only screen and (max-width:1131px){
+  .img-wrap{
+   flex-direction: column;
+   align-items: center;
+  }
 }
 @media only screen and (max-width:1010px){
 	.image{
-       max-width: 300px;
-       width: 100%;
+   max-width: 300px;
+   width: 100%;
 	}
+}
 @media only screen and (max-width:897px){
 	.text-box{
-       font-size: 18px;
+   font-size: 18px;
 	}
 }
 @media only screen and (max-width:804px){
 	.second-flex{
-       flex-direction: column;
-       align-items: center;
+   flex-direction: column;
+   align-items: center;
 	}
 }
 @media only screen and (max-width:650px){
 	.footer-nav-ul{
-       display: none; 
+   display: none; 
 	}
 }
 @media only screen and (max-width:638px){
 	.flex-block{
-       flex-direction: column;
-       align-items: center;
+   flex-direction: column;
+   align-items: center;
 	}
 	.text-box{
-       max-width: 300px;
-       width: 100%;
-       margin-left: 0;
-       margin-top: 20px;
+   max-width: 300px;
+   width: 100%;
+   margin-left: 0;
+   margin-top: 20px;
 	}
 	.texts{
-		   margin-left: 0;
-		   margin-top: 20px;
+	 margin-left: 0;
+	 margin-top: 20px;
 	}
 	.img{
-		   margin-left: 0;
-	     margin-top: 20px;
+	 margin-left: 0;
+	  margin-top: 20px;
 	}
 	.text-block{
-		   margin-top: 0;
+	 margin-top: 0;
 	}
 }
 @media only screen and (max-width:590px){
 	.nav-ul{
-		   display: none;
+	 display: none;
 	}
 	.fas{
-       display: block;
+   display: block;
+  }
+  .title{
+    font-size: 25px;
   }
 }
 @media only screen and (max-width:1044px){
   .pic{
-       max-width: 200px;
-       width: 100%;
+   max-width: 200px;
+   width: 100%;
   }
 }
 @media only screen and (max-width:1022px){
-  .block:last-child{
-       flex-direction: column;
-       align-items: center;
+  .blocks{
+   flex-direction: column;
+   align-items: center;
   }
+  .block{
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width:925px){
+  .contact{
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width:632px){
+   iframe{
+    width: 100%;
+   }
 }
