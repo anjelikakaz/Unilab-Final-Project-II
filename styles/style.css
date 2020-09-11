@@ -24,14 +24,6 @@ header{
     -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
-.fas{
-	color: #888888;
-}
-.fa-bars{
-	
-	font-size: 30px;
-	display: none;
-}
 a{
 	color: #707070;
 }
@@ -41,10 +33,6 @@ a{
 	max-width: 1170px;
 	width: 100%;
 	margin-top: 20px;
-}
-.img-flex{
-	max-width: 585px;
-	width: 100%;
 }
 .title-box{
 	color: #5B6263;
@@ -81,6 +69,16 @@ a{
 }
 .home-title:hover{
     color: #FFDCCE;
+}
+.img-block{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	flex-wrap: wrap;
+}
+.img-wrap img{
+	width: 100%;
+	margin-top: 20px;
 }
 body{
 	background-color: #F0F0F0;

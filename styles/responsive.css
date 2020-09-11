@@ -9,20 +9,14 @@
   .home-img{
     width: 100%;
   }
-  /*.title-box{
-    max-width: 500px;
-    width: 100%;
-  }*/
   .img-wrap{
-    max-width: 350px;
-    width: 100%;
+    width: 40%;
   }
 }
 
-@media only screen and (max-width:1177px){
+@media only screen and (max-width:1178px){
   .img-wrap{
-   max-width: 500px;
-   width: 100%;
+     width:
   }
 }
 @media only screen and (max-width:1153px){
@@ -31,17 +25,14 @@
    width: 100%;
   }
 }
-@media only screen and (max-width:1133px){
-   .flex:last-child{
-    flex-direction: column;
-    align-items: center;
+@media only screen and (max-width:1018){
+   .flex{
+      flex-direction: column;
+      align-items: center;
    }
 }
 @media only screen and (max-width:1090px){
-   .flex{
-    flex-direction: column;
-    align-items: center;
-   }
+    
 }
 @media only screen and (max-width:1010px){
 	.image{
