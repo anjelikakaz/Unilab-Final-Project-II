@@ -86,9 +86,9 @@
 	}
 }
 @media only screen and (max-width:590px){
-  .nav-ul{
+  /*.nav-ul{
     padding: 25px 35px;
-  }
+  }*/
   header{
     width: 100%;
   }
@@ -153,8 +153,8 @@
     width: 100%;
    }
 }
-/*@media only screen and (max-width:530px){
-   .flex{
-    width: 98%;
+@media only screen and (max-width:375px){
+   header{
+    width: 100%;
    }
-}*/
+}
