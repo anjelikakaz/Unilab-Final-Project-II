@@ -32,7 +32,7 @@
    }
 }
 @media only screen and (max-width:580px){
-    .images{
+      .images{
     width: 100%;
    }
 }
@@ -88,6 +88,9 @@
 	}
 }
 @media only screen and (max-width:590px){
+  /*.nav-ul{
+    padding: 25px 35px;
+  }*/
   header{
     width: 100%;
   }
@@ -152,18 +155,19 @@
     width: 100%;
    }
 }
-@media only screen and (max-width:377px){
-   /*header{
+@media only screen and (max-width:380px){
+   header{
     width: 100%;
-   }*/
+   }
    nav{
     width: 83%;
    }
    .socials{
-    width: 24%;
-   }
-}
-@media only screen and (max-width:370px){
-   .socials{
     width: 26%;
    }
+}
+@media only screen and (max-width:372px){
+   nav{
+    width: 85%;
+   }
+}
