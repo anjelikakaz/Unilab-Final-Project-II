@@ -31,8 +31,10 @@
       align-items: center;
    }
 }
-@media only screen and (max-width:1090px){
-    
+@media only screen and (max-width:580px){
+    .images{
+    width: 100%;
+   }
 }
 @media only screen and (max-width:1010px){
 	.image{
@@ -86,9 +88,6 @@
 	}
 }
 @media only screen and (max-width:590px){
-  /*.nav-ul{
-    padding: 25px 35px;
-  }*/
   header{
     width: 100%;
   }
@@ -153,8 +152,11 @@
     width: 100%;
    }
 }
-@media only screen and (max-width:375px){
-   header{
+@media only screen and (max-width:380px){
+   /*header{
     width: 100%;
+   }*/
+   nav{
+    width: 83%;
    }
 }
