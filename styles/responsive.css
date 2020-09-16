@@ -152,7 +152,7 @@
     width: 100%;
    }
 }
-@media only screen and (max-width:380px){
+@media only screen and (max-width:377px){
    /*header{
     width: 100%;
    }*/
@@ -160,6 +160,10 @@
     width: 83%;
    }
    .socials{
-    width: 26%;
+    width: 23%;
    }
 }
+@media only screen and (max-width:370px){
+   .socials{
+    width: 26%;
+   }
